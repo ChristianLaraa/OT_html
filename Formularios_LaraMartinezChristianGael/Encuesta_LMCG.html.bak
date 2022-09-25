@@ -1,0 +1,83 @@
+<html>
+		<head>
+	<title>
+	Encuesta
+	</title>
+<meta charset="utf-8">
+		</head>
+			<body bgcolor= "ADA8E3">
+					<center>
+						<marquee direction= "rigth" bgcolor= "E85A53" width=50%>
+							<font face="Comic Sans" color= "000000" size="5">
+								</center>
+					<center>
+	<b>Encuesta para alumnos del CCH</b>
+				</marquee><br>
+					</center>
+<form method="post"><br>
+	<center><b>Nombre completo: </b><input namee= "Nombre" size="50" type="text"></center><br><br>
+		<center><b>Correo Electrónico: </b><input namee= "Correo" size="25" type="text"></center><br><br>
+			<center><b>Clave: </b><input name="Clave" size"10" type"password"></center><br><br>
+				<center><b>Edad: </b>
+					<select name="Edad">
+						<option> 13
+							<option> 14
+								<option> 15
+									<option> 16
+										<option> 17
+											<option> 18
+												<option> 19
+													<option> 20
+														<option> Más de 20</center></select><br><br>
+															<center><b>Promedio general:</b>
+																<select name="Promedio">
+																	<option> Menos de 6
+																		<option> 6-7
+																			<option> 7-8
+																				<option> 8-9
+																					<option> 9-10</center></select><br><br>
+																				<center><b>¿Tienes Mascotas?</b><input type="radio" name="Mascotas" value="Si"> Si
+																			<input type="radio" name="Mascotas" value="No"> No<br><br>
+																		En caso de responder "Si",<br><br>
+																	<center><b>¿Qué mascotas tienes? </b><input namee= "MascotasTipo" size="20" type="text"></center><br>
+																<center><b>¿Tienes Hermanos?</b><input type="radio" name="Hermanos" value="Si"> Si
+															<input type="radio" name="Hermanos" value="No"> No</center><br><br>
+														En caso de responder "Si",<br><br>
+													<center><b>¿Cuántos hermanos tienes? </b>
+												<select name="num_hermanos">
+											<option> 1
+										<option> 2
+									<option> 3
+								<option> 4
+							<option> más de 4</center></select><br><br>
+						<center><b>¿Qué materias te gustan? </b><br> <input type="checkbox" name="Física" value="yes"> Física<br>
+					<input type="checkbox" name="Química" value="yes"> Química<br>
+				<input type="checkbox" name="Matemáticas" value="yes"> Matematicas<br>
+			<input type="checkbox" name="Historia" value="yes"> Historia<br>
+		<input type="checkbox" name="Biología" value="yes"> Biología <br> 
+	<input type="checkbox" name="Taller de Lectura y Redacción" value="yes"> Taller de Lectura y Redación<br><br>
+<center><b>¿Realizas alguna Actividad Física? </b><input type="radio" name="Actfis" value="Si"> Si
+	<input type="radio" name="Actfis" value="No"> No</center><br><br>
+		En caso de responder "Si",<br><br>
+			<center><b>¿Qué actividad Realizas? </b><input namee= "nom_actividad" size="20" type"text></center><br><br>
+				<center><b>Escolaridad de tu papá </b>
+					<select name="Esco">
+						<option> Primaria
+							<option> Secundaria
+								<option> Bachillerato
+									<option> Licenciatura
+										<option> Maestría
+											<option> Doctorado</center></select><br><br>
+												<center><b>Escolaridad de tu mamá </b>
+													<select name="Escolaridad">
+														<option> Primaria
+															<option> Secundaria
+																<option> Bachillerato
+																	<option> Licenciatura
+																		<option> Maestría
+																			<option> Doctorado</center></select><br>
+																				<br><input value="Enviar" type="submit">
+																					<input value="Borrar" type="reset">																							
+																						
+</body>							
+	</html>
